@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: Trebuchet MS, Helvetica, sans-serif
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    background-color: black;
+    overflow: hidden;
+}
+
+.logo {
+    height:8rem;
+    width: auto;
+    margin: 0.25rem;
+    float: left;
+}
+
+
+h1 {
+    margin: 1.5rem .5;
+    font size: 2rem;
+    font-size: 80%;
+    line-height: 1.25rem;
+    font-family: Didot, Calisto MT, serif;
+}
+
+h2 {
+    margin: 3rem 5;
+    font size: 8rem;
+    font-size: 150%;
+    line-height: 2rem;
+    font-family: Didot, Calisto MT, serif;
+}
+
+footer {
+    background-color: black;
+    overflow: hidden;
+}
+
+footer p {
+    color: white;
+    margin: .5rem 4rem;
+    font-size: .75rem;
+    line-height: 1.25rem;
+    font-family: trebuchet ms, helvetica, sans-serif;
+} 
