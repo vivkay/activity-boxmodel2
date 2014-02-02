@@ -35,41 +35,50 @@ body {
 .masthead {
     background-color: black;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 
 .logo {
-    height:8rem;
+    height: 3rem;
     width: auto;
-    margin: 0.25rem;
-    float: left;
+    margin: 0.75rem;
+    float: right;
 }
 
+.silver {
+    font-family: didot, calisto, serif;
+    color: white; 
+    text-align:left;
+    font-size: 2rem;
+    line-height: 0.25rem;
+}
 
 h1 {
-    margin: 1.5rem .5;
-    font size: 2rem;
-    font-size: 80%;
-    line-height: 1.25rem;
-    font-family: Didot, Calisto MT, serif;
+    margin: .5rem;
+    font size: 20rem;
+    line-height: 6rem;
+    font-family: didot, calisto MT, serif;
+    font-size: 600%;
 }
 
 h2 {
-    margin: 3rem 5;
-    font size: 8rem;
-    font-size: 150%;
-    line-height: 2rem;
+    margin: 2rem .5rem .5rem .5rem;
+    font size: 2rem;
+    font-size: 200%;
+    line-height: 2.5rem;
     font-family: Didot, Calisto MT, serif;
+    font-style:italic;
 }
 
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 2rem .5rem .5rem .5rem;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-style:normal;
+}
+    
 footer {
     background-color: black;
     overflow: hidden;
 }
-
-footer p {
-    color: white;
-    margin: .5rem 4rem;
-    font-size: .75rem;
-    line-height: 1.25rem;
-    font-family: trebuchet ms, helvetica, sans-serif;
-} 
